@@ -4,12 +4,12 @@
       class="bg-white mx-4 my-auto rounded-lg flex flex-col md:flex-row md:mx-auto"
     >
       <img
-        src="image-product-mobile.jpg"
+        src="@/assets/image-product-mobile.jpg"
         alt=""
         class="rounded-t-lg block md:hidden"
       />
       <img
-        src="image-product-desktop.jpg"
+        src="@/assets/image-product-desktop.jpg"
         alt=""
         class="hidden md:inline-block object-scale-down object-left w-80 rounded-l-lg"
       />
@@ -38,7 +38,7 @@
         <div
           class="bg-darkCyan cursor-pointer hover:bg-darkCyan-dark rounded-lg py-3 flex justify-center items-center font-bold"
         >
-          <img src="icon-cart.svg" alt="" />
+          <img src="@/assets/icon-cart.svg" alt="" />
           <span class="text-white text-sm font-montserrat pl-2"
             >Add to Cart</span
           >
